@@ -17,6 +17,28 @@ demo poc for langchain in web3
 npm install
 ```
 
+test
+
 ```
 npm run dev
+```
+
+compile
+
+```
+
+npm run build
+
+```
+
+chat terminal
+
+```
+npm run start
+```
+
+workchain
+
+```
+npm run start:workflow
 ```
