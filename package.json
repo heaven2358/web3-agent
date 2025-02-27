@@ -1,0 +1,32 @@
+{
+  "name": "langchain-dragonfly-agent-poc",
+  "version": "0.1.0",
+  "description": "LangChain Agent POC with DragonflyDB for context management",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.32",
+    "@langchain/core": "^0.3.40",
+    "@langchain/langgraph": "^0.2.49",
+    "@langchain/openai": "^0.4.4",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.3.19",
+    "redis": "^4.7.0",
+    "serpapi": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
