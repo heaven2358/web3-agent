@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
+    "start:workflow": "node dist/workflow.js",
     "dev": "node --loader ts-node/esm src/index.ts"
   },
   "keywords": [],
